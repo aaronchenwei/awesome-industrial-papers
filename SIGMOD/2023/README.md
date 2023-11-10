@@ -21,3 +21,8 @@
 | AWS          | Auto-WLM: ML-enhanced workload management in Amazon Redshift                                  |
 |              | Making Data Clouds Smarter at Keebo: Automated Warehouse Optimization using Data Learning     |
 | Apple        | Growing and Serving Large Open-domain Knowledge Graphs                                        |
+
+## Awards
+
+- Industry: Best Paper
+  - PG-Schema: Schemas for Property Graphs

@@ -16,3 +16,8 @@
 |     | Enabling the Next Generation of Multi-Region Applications with CockroachDB        |
 |     | Photon: A Fast Query Engine for Lakehouse Systems                                 |
 |     | Cloud-Native Transactions and Analytics in SingleStore                            |
+
+## Awards
+
+- Industry: Best Paper
+  - Photon: A Fast Query Engine for Lakehouse Systems

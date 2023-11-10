@@ -23,3 +23,8 @@
 | Microsoft | KEA: Tuning an Exabyte-Scale Data Infrastructure                                         |
 | Zilliz    | Milvus: A Purpose-Built Vector Data Management System                                    |
 | IBM       | AutoAI-TS:AutoAI for Time Series Forecasting                                             |
+
+## Awards
+
+- Industry: Best Paper
+  - FoundationDB: A Distributed Unbundled Transactional KeyValue Store
