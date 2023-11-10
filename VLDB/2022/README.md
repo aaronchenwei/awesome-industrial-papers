@@ -15,8 +15,8 @@
 | ByteDance   | ByteHTAP: ByteDance's HTAP System with High Data Freshness and Strong Data Consistency      |
 | Amazon      | Beaconnect: Continuous Web Performance A/B Testing at Scale                                 |
 | Alibaba     | CloudJump: Optimizing Cloud Database For Cloud Storage                                      |
-|             | DyHealth: Making Neural Networks Dynamic for Effective Healthcare Analytics                 |
-|             | Blueprint: a constraint-solving approach for document extraction                            |
+| NUH         | DyHealth: Making Neural Networks Dynamic for Effective Healthcare Analytics                 |
+| Instabase   | Blueprint: a constraint-solving approach for document extraction                            |
 | Tencent     | TencentCLS: The Cloud Log Service with High Query Performances                              |
 | Alibaba     | Ganos: A Multidimensional, Dynamic, and Scene-Oriented Cloud-Native Spatial Database Engine |
 | Couchbase   | Magma: A high data density storage engine used in Couchbase                                 |
