@@ -49,3 +49,10 @@
 |               | GCRL: Efficient Delivery Area Assignment for Last-mile Logistics with Group-based Cooperative Reinforcement Learning                   |
 | Ant Financial | A Rule-based Decision System for Financial Applications                                                                                |
 | Alibaba       | BASM: A Bottom-up Adaptive Spatiotemporal Model for Online Food Ordering Service                                                       |
+
+## Awards
+
+- Best Industrial Paper
+  - Reactive Company Control in Company Knowledge Graphs
+- Best Industrial Paper Runner up
+  - SAMI: A Shape-Aware Cycling Map Inference Framework for Designated Driving Service
