@@ -34,7 +34,7 @@
 | Google        | Leveraging Organizational Resources to Adapt Models to New Data Modalities                                                                    |
 | Databricks    | Delta Lake: High-Performance ACID Table Storage over Cloud Object Stores                                                                      |
 
-## Award
+## Awards
 
 - Best Industrial Paper Award
   - DIAMetrics: Benchmarking Query Engines at Scale
