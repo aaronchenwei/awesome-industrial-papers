@@ -1,6 +1,6 @@
 # awesome-industrial-papers
 
-## International Conference on Very Large Data Bases / VLDB conference
+## International Conference on Very Large Data Bases (VLDB conference)
 
 - [VLDB 2021](./VLDB/2021/README.md)
 - [VLDB 2020](./VLDB/2020/README.md)
