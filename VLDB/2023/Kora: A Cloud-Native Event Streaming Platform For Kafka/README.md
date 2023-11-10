@@ -16,6 +16,12 @@
 
 Confluent Cloud provides a fully-managed, cloud-native event streaming platform based on Apache Kafka. Our platform, called **_Kora_**, is highly available, scalable, elastic, secure, and globally interconnected. As a true cloud-native platform, it abstracts low-level resources such as Kafka brokers and hides operational complexities such as system upgrades. It supports a pay-as-you-go model: users can start small and scale their workloads to GBs/sec and back when needed while only paying for resources they use. Users can choose between a cost-effective multi-tenant configuration as well as dedicated solutions if stronger isolation is required.
 
+Confluent Cloud提供了一个基于Apache Kafka的完全托管的云原生事件流平台。这个平台被称为**_Kora_**，具有高可用性、可扩展性、弹性、安全性，和具备全球互联性。作为一个真正的云原生平台，
+- 抽象了底层资源，如Kafka brokers，
+- 隐藏了运维复杂性，如系统升级
+- 支持按需付费模型：用户可以从小规模开始使用。根据需要将其工作负载扩展到每秒GB，并在仅使用的资源上支付费用。
+- 用户可以在成本效益的多租户配置和需要更强隔离的情况下选择专用解决方案。
+
 论文的 contributions:
 
 - We present the architecture of Kora, a cloud-native event streaming platform that synthesizes well-known techniques from literature to deliver the promise of cloud: **high availability, durability, scalability, elasticity, cost efficiency, performance, multi-tenancy, and multi-cloud support**. For example, our architecture decouples its storage and compute tiers to facilitate elasticity, performance, and cost efficiency.
@@ -25,6 +31,11 @@ Confluent Cloud provides a fully-managed, cloud-native event streaming platform 
 ## 2. Background
 
 描述了 Kafka 的基本原理。
+
+![image](https://github.com/aaronchenwei/awesome-industrial-papers/assets/9360415/20c285d4-8882-49a5-9a7a-67db261d910e)
+
+- Latency is a critical measure of the performance of event streaming systems since applications often operate with real-time expectations.
+- We measure _end-to-end_ latency as shown in Figure 1 as the elapsed time between event creation by a producer and delivery to the consumer.
 
 ## 3. Overview
 
