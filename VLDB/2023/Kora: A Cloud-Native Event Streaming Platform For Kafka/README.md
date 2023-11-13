@@ -33,7 +33,7 @@ Confluent Cloud 提供了一个基于 Apache Kafka 的完全托管的云原生�
 
 描述了 Kafka 的基本原理。
 
-<p style="text-align: center;">
+<p align="center">
   <img src="https://github.com/aaronchenwei/awesome-industrial-papers/assets/9360415/20c285d4-8882-49a5-9a7a-67db261d910e" />
 </p>
 
@@ -81,7 +81,7 @@ The design and architecture of Kora is motivated by the following key objectives
 
 ### 3.2 Architecture
 
-<p style="text-align: center;">
+<p align="center">
   <img width="60%" src="https://github.com/aaronchenwei/awesome-industrial-papers/assets/9360415/6e24ace2-0b71-44c0-ae86-1737ea76f219" />
 </p>
 
