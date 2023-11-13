@@ -33,9 +33,9 @@ Confluent Cloud 提供了一个基于 Apache Kafka 的完全托管的云原生�
 
 描述了 Kafka 的基本原理。
 
-<div style="text-align:center">
+<p align="center">
   <img src="https://github.com/aaronchenwei/awesome-industrial-papers/assets/9360415/20c285d4-8882-49a5-9a7a-67db261d910e" />
-</div>
+</p>
 
 - **Latency** is a critical measure of the performance of event streaming systems since applications often operate with real-time expectations.
 - We measure _end-to-end_ latency as shown in Figure 1 as the elapsed time between event creation by a producer and delivery to the consumer.
@@ -62,6 +62,10 @@ The design and architecture of Kora is motivated by the following key objectives
   - Kora runs on AWS, GCP, and Azure. Many of our design choices are driven by our desire to provide a unified experience to our users while minimizing the operational burden due to differences between clouds.
 
 ### 3.2 Architecture
+
+<p align="center">
+  <img width="50%" src="https://github.com/aaronchenwei/awesome-industrial-papers/assets/9360415/6e24ace2-0b71-44c0-ae86-1737ea76f219" />
+</p>
 
 ### 3.3 Metadata Management
 
