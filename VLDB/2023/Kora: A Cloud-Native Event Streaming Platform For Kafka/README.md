@@ -41,6 +41,8 @@ Confluent Cloud提供了一个基于Apache Kafka的完全托管的云原生事�
 
 ### 3.1 Design goals
 
+The design and architecture of Kora is motivated by the following key objectives:
+
 ### 3.2 Architecture
 
 ### 3.3 Metadata Management
