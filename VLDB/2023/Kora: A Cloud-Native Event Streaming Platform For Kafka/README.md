@@ -16,10 +16,11 @@
 
 Confluent Cloud provides a fully-managed, cloud-native event streaming platform based on Apache Kafka. Our platform, called **_Kora_**, is highly available, scalable, elastic, secure, and globally interconnected. As a true cloud-native platform, it abstracts low-level resources such as Kafka brokers and hides operational complexities such as system upgrades. It supports a pay-as-you-go model: users can start small and scale their workloads to GBs/sec and back when needed while only paying for resources they use. Users can choose between a cost-effective multi-tenant configuration as well as dedicated solutions if stronger isolation is required.
 
-Confluent Cloud提供了一个基于Apache Kafka的完全托管的云原生事件流平台。这个平台被称为**_Kora_**，具有高可用性、可扩展性、弹性、安全性，和具备全球互联性。作为一个真正的云原生平台，
-- 抽象了底层资源，如Kafka brokers，
+Confluent Cloud 提供了一个基于 Apache Kafka 的完全托管的云原生事件流平台。这个平台被称为**_Kora_**，具有高可用性、可扩展性、弹性、安全性，和具备全球互联性。作为一个真正的云原生平台，
+
+- 抽象了底层资源，如 Kafka brokers，
 - 隐藏了运维复杂性，如系统升级
-- 支持按需付费模型：用户可以从小规模开始使用。根据需要将其工作负载扩展到每秒GB，并在仅使用的资源上支付费用。
+- 支持按需付费模型：用户可以从小规模开始使用。根据需要将其工作负载扩展到每秒 GB，并在仅使用的资源上支付费用。
 - 用户可以在成本效益的多租户配置和需要更强隔离的情况下选择专用解决方案。
 
 论文的 contributions:
@@ -32,9 +33,11 @@ Confluent Cloud提供了一个基于Apache Kafka的完全托管的云原生事�
 
 描述了 Kafka 的基本原理。
 
-![image](https://github.com/aaronchenwei/awesome-industrial-papers/assets/9360415/20c285d4-8882-49a5-9a7a-67db261d910e)
+<div style="text-align:center">
+  <img src="https://github.com/aaronchenwei/awesome-industrial-papers/assets/9360415/20c285d4-8882-49a5-9a7a-67db261d910e" />
+</div>
 
-- Latency is a critical measure of the performance of event streaming systems since applications often operate with real-time expectations.
+- **Latency** is a critical measure of the performance of event streaming systems since applications often operate with real-time expectations.
 - We measure _end-to-end_ latency as shown in Figure 1 as the elapsed time between event creation by a producer and delivery to the consumer.
 
 ## 3. Overview
@@ -42,6 +45,21 @@ Confluent Cloud提供了一个基于Apache Kafka的完全托管的云原生事�
 ### 3.1 Design goals
 
 The design and architecture of Kora is motivated by the following key objectives:
+
+- _Availability and Durability_.
+  - Our customers use our service for business-critical services and for storing critical data. Lapses in durability or availability lead to direct revenue loss and are completely unacceptable. We offer an uptime SLA of 99.95% for single zone clusters and 99.99% for multi-zone clusters
+- _Scalability_.
+  - Scalability is crucial for most customers as changing infrastructure backends is very risky and expensive, especially in terms of engineering resources. Therefore, customers want to use a backend service that they know will continue to scale as their business grows year-over-year.
+- _Elasticity_.
+  - Customers can expand and shrink their clusters as their workloads scales. Additionally, Kora adapts to changes in workload patterns to provide optimal performance for a given cluster size.
+- _Performance_.
+  - Low latency at high throughput is the hallmark of event streaming platforms. We have made the conscious choice of directly passing all performance wins to the users. Therefore, over time, users may see the performance of their applications improve.
+- _Low cost_.
+  - Our customers want all the benefits of the cloud but at the cheapest possible net cost. Our design, therefore, puts a lot of emphasis on optimizing the cost for our users and we often lean towards choices that yield better price-performance ratio.
+- _Multitenancy_.
+  - Multitenancy is one of the key enablers of a low-price and highly elastic cloud experience in the form of a pay-as-you-go model. Our design features several key mechanisms required by a truly multi-tenant Event Streaming platform work.
+- _Multi-cloud support_.
+  - Kora runs on AWS, GCP, and Azure. Many of our design choices are driven by our desire to provide a unified experience to our users while minimizing the operational burden due to differences between clouds.
 
 ### 3.2 Architecture
 
