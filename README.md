@@ -1,6 +1,6 @@
 # awesome-industrial-papers
 
-## ACM SIGMOD Conference
+## ACM SIGMOD Conference (SIGMOD)
 
 - [SIGMOD 2023](./SIGMOD/2023/README.md)
 - [SIGMOD 2022](./SIGMOD/2022/README.md)
@@ -8,7 +8,7 @@
 - [SIGMOD 2020](./SIGMOD/2020/README.md)
 - [SIGMOD 2019](./SIGMOD/2019/README.md)
 
-## International Conference on Very Large Data Bases (VLDB conference)
+## International Conference on Very Large Data Bases (VLDB)
 
 - [VLDB 2023](./VLDB/2023/README.md)
 - [VLDB 2022](./VLDB/2022/README.md)
